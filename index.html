@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Assessment-1</title> 
+</head>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="image-mapper.js" type="text/javascript"></script>
+<body onload="imageMapper()">
+    <h1>Image Mapper</h1>
+    <form>
+        <label>Image Mapper allows user to annotate an image.</label><br>
+        <label for="file">Upload an image. Click on it to annotate it.</label><br>
+        <label>See annotations in table below image.</label><br>
+        <input type="file" accept="image/*" onchange="imageUpload()" id="imageFile"></input><br>
+    </form>
+    <br>
+    <table class="imageInfo"></table>
+    <br>
+    <img src="">
+    <table class="imageAnnotations"></table>
+    <div class="annotation"></div>
+</body>
+</html>

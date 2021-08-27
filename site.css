@@ -1,0 +1,29 @@
+h1 {
+    font-family: monospace;
+    font-size: 3em;
+    margin-left: 50px;
+}
+
+
+form {
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.annotation {
+    position: absolute;
+}
+
+.imageInfo{
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.imageAnnotations {
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
